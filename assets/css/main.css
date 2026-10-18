@@ -3477,3 +3477,20 @@ input[type="button"]:disabled,
 	}
 
 }
+
+@media screen and (max-width: 736px) {
+    header.major h2 {
+        font-size: 1.7em;
+        line-height: 1.0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #titleBar .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-right: 64px;   /* чтобы не заезжать под кнопку-гамбургер */
+        box-sizing: border-box;
+    }
+}
